@@ -21,5 +21,7 @@ public class Controller implements Observer {
 
     @Override
     public void update(Observable o, Object arg) {
+        m.setAileron(wc.getAileron());
+        m.setElevators(wc.getElevator());
     }
 }
