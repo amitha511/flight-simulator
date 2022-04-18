@@ -11,7 +11,7 @@ The joystick controls the flight of the aircraft.<br>
 * Throttle - responsible for aircraft speed.
 * Rudder - Stabilizes the direction of the plane.
 
-##Instruction
+## Instruction 
 Move the joystick (circle) by clicking and dragging the mouse on the rectangle surface.
 The lower slider controls the rudder, You can move the slider right or left to adjust the direction of the plane.<br>
 The left slider controls the throttle, You can move the slider up to accelerate the plane, and lower the slider down to slow it down.
