@@ -1,6 +1,6 @@
 package com.example.javafx_tirgol2;
 
-import controller.Controller;
+import ViewModel.ViewModel;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -14,13 +14,13 @@ public class Main extends Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("hello-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 320, 240);
-        HelloController wc= fxmlLoader.getController();
-        wc.paint();
         Model m = new Model("properties.txt");
-        m.setAileron(1);
-        m.setRudder(-1);
-        m.setElevators(1);
-        Controller c = new Controller(m,wc);
+        HelloController wc= fxmlLoader.getController();
+        ViewModel vm = new ViewModel(m);
+        wc.init(vm);
+        wc.paint();
+
+
         stage.setTitle("Hello!");
         stage.setScene(scene);
         stage.show();

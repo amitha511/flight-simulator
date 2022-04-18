@@ -3,4 +3,4 @@ port,5402
 aileron,set /controls/flight/aileron
 elevators,set /controls/flight/elevator
 rudder,set /controls/flight/rudder
-throttle,set /controls/flight/current-engine/throttle 1
+throttle,set /controls/engines/current-engine/throttle

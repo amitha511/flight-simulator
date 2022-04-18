@@ -30,10 +30,10 @@
       </MenuBar>
    </top>
    <left>
-      <Slider orientation="VERTICAL" BorderPane.alignment="CENTER" />
+      <Slider fx:id="throttle" max="1.0" orientation="VERTICAL" BorderPane.alignment="CENTER" />
    </left>
    <bottom>
-      <Slider BorderPane.alignment="CENTER" />
+      <Slider fx:id="rudder" blockIncrement="0.1" max="1.0" min="-1.0" BorderPane.alignment="CENTER" />
    </bottom>
    <center>
       <Canvas fx:id="joystick" height="200.0" onMouseDragged="#mouseMove" onMousePressed="#mouseDown" onMouseReleased="#mouseUp" width="200.0" BorderPane.alignment="CENTER" />
