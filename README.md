@@ -3,18 +3,18 @@
 Flight remote control in flight simulator.
 
 ## About 
-The javaFX-flightSimulator It's a joystick that connects remotely to a flight simulator "FlightGear",
+The javaFX-flightSimulator it's a joystick that connects remotely to a flight simulator "FlightGear",
 The joystick controls the flight of the aircraft.<br>
 
 ## Features:
-* Joystick - Stabilizes the height of the plane.
+* Joystick - stabilizes the height of the plane.
 * Throttle - responsible for aircraft speed.
-* Rudder - Stabilizes the direction of the plane.
+* Rudder - stabilizes the direction of the plane.
 
 ## Instruction 
-Move the joystick (circle) by clicking and dragging the mouse on the rectangle surface.
-The lower slider controls the rudder, You can move the slider right or left to adjust the direction of the plane.<br>
-The left slider controls the throttle, You can move the slider up to accelerate the plane, and lower the slider down to slow it down.
+Move the joystick (circle) by clicking and dragging the mouse on the rectangle surface.<br>
+The lower slider controls the rudder, you can move the slider right or left to adjust the direction of the plane.<br>
+The left slider controls the throttle, you can move the slider up to accelerate the plane, and lower the slider down to slow it down.
 
 ![controller](src/main/resources/controller.png)
 
